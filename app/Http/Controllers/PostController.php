@@ -21,10 +21,7 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        return "Hallo";
-    }
+
 
     /**
      * Store a newly created resource in storage.
