@@ -7,10 +7,13 @@
 		<title>shad0wBlog</title>
 		<link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <script src="{{ mix('js/app.js') }}" defer></script>
+
 	</head>
-	<body class="flex flex-col min-h-screen  bg-gray-500">
+  
+	<body class="flex flex-col min-h-screen bg-black">
+   
 		<!-- Navbar goes here -->
-		<nav class="bg-black shadow-lg">
+		<nav class="bg-black shadow-xl">
       <div class="max-w-6xl mx-auto px-4">
 				<div class="flex justify-between">
           <div class="flex space-x-7">
@@ -69,8 +72,13 @@
 			</script>
 		</nav>
 
-		<h1 class="text-black text-center text-2xl md:text-3xl lg:text-4xl font-bold p-4">HOME PAGE</h1>
-
+    
+		
+        <div class="backgroundImage">
+            
+        </div>
+        
     <x-footer/>
+    
 </body>
 </html>

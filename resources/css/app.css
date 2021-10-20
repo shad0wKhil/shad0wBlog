@@ -7,3 +7,22 @@
 .dark .ps__rail-x {
     background-color: transparent !important;
 }
+
+.backgroundImage {
+    background-image: url(../../public/images/red.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height:90vh;
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+body {
+/* The file size of this background image is 93% smaller
+to improve page load speed on mobile internet connections */
+background-image: url(../../public/images/ninja.jpg);
+}
+}
+

@@ -1,4 +1,4 @@
-<footer class="flex-shrink-0 px-8 py-7 h-10 bg-black border-t-4 border-red-500 fixed inset-x-0 bottom-0 p-4"">
+<footer class="flex-shrink-0 px-8 py-7 h-10 bg-black border-t-4 border-red-500 fixed inset-x-0 bottom-0 p-4">
     <p class="flex items-center justify-center gap-1 text-sm text-white dark:text-white">
         <span>Made with</span>
         <span>
