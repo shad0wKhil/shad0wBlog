@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Routing\RouteUrlGenerator;
 use Illuminate\Support\Facades\Route;
+// use App\Http\Livewire\Posts;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//    return view('welcome');
+//  });
+
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+ });
+
+
+Route::get('/blog', function () {
+    return view('blog');
+ });
+
+
+
+// Route::group(['middleware' => ['auth:sanctum', 'role:admin']], function() {
+//     route::get('/admin/posts', Posts::class)->name('posts.index');
+//  });
+
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
