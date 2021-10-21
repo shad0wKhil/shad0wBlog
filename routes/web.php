@@ -30,6 +30,9 @@ Route::get('/blog', function () {
 
 
 
+
+
+
 // Route::group(['middleware' => ['auth:sanctum', 'role:admin']], function() {
 //     route::get('/admin/posts', Posts::class)->name('posts.index');
 //  });

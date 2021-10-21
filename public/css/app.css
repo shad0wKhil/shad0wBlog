@@ -1273,6 +1273,9 @@ select {
 .flex-wrap {
 	flex-wrap: wrap;
 }
+.place-items-center {
+	place-items: center;
+}
 .content-center {
 	align-content: center;
 }
@@ -1290,6 +1293,9 @@ select {
 }
 .justify-between {
 	justify-content: space-between;
+}
+.justify-around {
+	justify-content: space-around;
 }
 .justify-items-center {
 	justify-items: center;
@@ -1446,6 +1452,22 @@ select {
 	--tw-border-opacity: 1;
 	border-color: rgba(243, 244, 246, var(--tw-border-opacity));
 }
+.border-red-900 {
+	--tw-border-opacity: 1;
+	border-color: rgba(127, 29, 29, var(--tw-border-opacity));
+}
+.border-yellow-800 {
+	--tw-border-opacity: 1;
+	border-color: rgba(146, 64, 14, var(--tw-border-opacity));
+}
+.border-yellow-500 {
+	--tw-border-opacity: 1;
+	border-color: rgba(245, 158, 11, var(--tw-border-opacity));
+}
+.border-yellow-600 {
+	--tw-border-opacity: 1;
+	border-color: rgba(217, 119, 6, var(--tw-border-opacity));
+}
 .bg-white {
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
@@ -1488,6 +1510,10 @@ select {
 .bg-cyan-500 {
 	--tw-bg-opacity: 1;
 	background-color: rgba(6, 182, 212, var(--tw-bg-opacity));
+}
+.bg-indigo-900 {
+	--tw-bg-opacity: 1;
+	background-color: rgba(49, 46, 129, var(--tw-bg-opacity));
 }
 .bg-indigo-50 {
 	--tw-bg-opacity: 1;
@@ -1769,6 +1795,14 @@ select {
 	--tw-text-opacity: 1;
 	color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
+.text-yellow-900 {
+	--tw-text-opacity: 1;
+	color: rgba(120, 53, 15, var(--tw-text-opacity));
+}
+.text-red-900 {
+	--tw-text-opacity: 1;
+	color: rgba(127, 29, 29, var(--tw-text-opacity));
+}
 .underline {
 	text-decoration: underline;
 }
@@ -1873,7 +1907,7 @@ select {
     background-color: transparent !important;
 }
 .backgroundImage {
-    background-image: url(/images/red.jpg?a18ded0a8215cb6781803c5204981159);
+    background-image: url(/images/morocco.jpg?34c46c328afd8cf7a4c5d3f414280323);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -1885,7 +1919,7 @@ select {
 body {
 /* The file size of this background image is 93% smaller
 to improve page load speed on mobile internet connections */
-background-image: url(/images/ninja.jpg?d5c0d50e5279c894aca46ea33c424779);
+background-image: url(/images/morocco.jpg?34c46c328afd8cf7a4c5d3f414280323);
 }
 }
 .before\:absolute::before {
@@ -2363,6 +2397,10 @@ background-image: url(/images/ninja.jpg?d5c0d50e5279c894aca46ea33c424779);
 
 	.md\:ml-16 {
 		margin-left: 4rem;
+	}
+
+	.md\:block {
+		display: block;
 	}
 
 	.md\:flex {

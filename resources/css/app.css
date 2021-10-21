@@ -9,7 +9,7 @@
 }
 
 .backgroundImage {
-    background-image: url(../../public/images/red.jpg);
+    background-image: url(../../public/images/morocco.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -20,9 +20,9 @@
 
 @media only screen and (max-width: 767px) {
 body {
-/* The file size of this background image is 93% smaller
-to improve page load speed on mobile internet connections */
-background-image: url(../../public/images/ninja.jpg);
-}
+    /* The file size of this background image is 93% smaller
+    to improve page load speed on mobile internet connections */
+    background-image: url(../../public/images/morocco.jpg);
+    }
 }
 
