@@ -24,9 +24,9 @@ Route::get('/', function () {
  });
 
 
-Route::get('/blog', function () {
-    return view('blog');
- });
+// Route::get('/blog', function () {
+//     return view('blog');
+//  });
 
 
 

@@ -23,6 +23,16 @@ body {
     /* The file size of this background image is 93% smaller
     to improve page load speed on mobile internet connections */
     background-image: url(../../public/images/morocco.jpg);
+    background-repeat: no-repeat;
     }
 }
 
+.hover\:bg-comp:hover {
+	--tw-text-opacity: 1;
+    background-color: rgba(185, 157, 31, var(--tw-bg-opacity));
+}
+
+.bg-comp {
+	--tw-text-opacity: 1;
+    background-color: rgba(185, 157, 31, var(--tw-bg-opacity));
+} 
