@@ -13,7 +13,7 @@
 	<body class="flex flex-col min-h-screen bg-transparent">
    
 		<!-- Navbar goes here -->
-		<nav class="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 shadow-xl">
+		<nav :class="{ 'scrolled': !view.atTopOfPage }" class="fixed flex w-full border-b items-center justify-between flex-wrap p-0 m-auto top-0 animated bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 shadow-xl">
             <div class="max-w-6xl mx-auto px-4">
 				<div class="flex justify-between">
                 <div class="flex space-x-7 w-full">
@@ -83,9 +83,10 @@
         <!--Blog Section-->
     
 		<main>
-            <div class="backgroundImage">
-                {{ $slot }}
-                
+            <div class="backgroundImage sm:h-vh-90 bg-origin-content h-96 drop-shadow-2xl">
+               
+			
+            
             </div>
             <x-blog/>
         </main>

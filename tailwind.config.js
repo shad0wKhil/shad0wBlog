@@ -13,6 +13,9 @@ module.exports = {
 
     theme: {
         extend: {
+            spacing: {
+                'vh-90': '90vh',
+            },
             fontFamily: {
                 sans: ["Inter", ...defaultTheme.fontFamily.sans],
             },

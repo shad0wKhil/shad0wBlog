@@ -14,17 +14,17 @@
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    min-height:90vh;
+    min-height:100%;
     display: flex;
 }
 
-@media only screen and (max-width: 767px) {
-body {
-    /* The file size of this background image is 93% smaller
-    to improve page load speed on mobile internet connections */
-    background-image: url(../../public/images/morocco.jpg);
-    background-repeat: no-repeat;
-    }
+nav {
+    z-index: 10
+}
+
+nav.scrolled {
+    @apply shadow-2xl;
+    border-bottom: 0px;
 }
 
 .hover\:bg-comp:hover {
