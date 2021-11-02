@@ -9,7 +9,7 @@
 }
 
 .backgroundImage {
-    background-image: url(../../public/images/morocco.jpg);
+    background-image: url(../../public/images/space.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -17,6 +17,7 @@
     min-height:100%;
     display: flex;
 }
+
 
 nav {
     z-index: 10
@@ -36,3 +37,6 @@ nav.scrolled {
 	--tw-text-opacity: 1;
     background-color: rgba(185, 157, 31, var(--tw-bg-opacity));
 } 
+
+
+

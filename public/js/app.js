@@ -5451,7 +5451,17 @@ document.addEventListener("alpine:init", function () {
       scrollingUp: false
     };
   });
-});
+}); //add smooth scrolling when clicking any anchor link
+
+document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+}); //<a href="#someOtherElementID"> Go to Other Element Smoothly </a>
+
 alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].plugin(_alpinejs_collapse__WEBPACK_IMPORTED_MODULE_1__["default"]);
 alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].start();
 

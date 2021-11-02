@@ -1,3 +1,3 @@
-<a href="#" class="flex items-center py-4 px-2">
-    <img src="{{ asset('images/shadow.png') }}" alt="Logo" class="h-20 w-20 mr-20">
+<a href="#" class="flex py-0 px-0 my-10 align-left">
+    <img src="{{ asset('images/earth.gif') }}" alt="Logo" class="h-10 w-10 mr-20">
 </a>

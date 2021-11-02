@@ -10,73 +10,73 @@
 
 	</head>
   
-	<body class="flex flex-col min-h-screen bg-transparent">
+	<body class="flex flex-col min-h-screen">
    
-		<!-- Navbar goes here -->
-		<nav :class="{ 'scrolled': !view.atTopOfPage }" class="fixed flex w-full border-b items-center justify-between flex-wrap p-0 m-auto top-0 animated bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 shadow-xl">
-            <div class="max-w-6xl mx-auto px-4">
-				<div class="flex justify-between">
-                <div class="flex space-x-7 w-full">
-            <div>
-							
-            <!-- Website Logo -->
-              <x-logo/>
-            </div>
-            
-            <!-- Primary Navbar items -->
-			<div class="hidden md:flex  w-full place-items-center justify-between">
-				<div class="text-center">
-					<a href="/" class="py-2 px-2 font-medium text-white rounded hover:bg-yellow-600 hover:text-white transition duration-300"">Home</a>
-					<a href="#blog" class="ml-3 py-2 px-2 font-medium text-white rounded hover:bg-yellow-600 hover:text-white transition duration-300">Blog</a>
-				</div>
-                
-                <!-- Secondary Navbar items -->
-				<div class="flex-reverse">
-					<a href="{{ route('login') }}" class="py-2 px-2 font-medium text-white rounded hover:bg-yellow-600 hover:text-white transition duration-300">Log In</a>
-					<a href="{{ route('register') }}" class="py-2 px-2 font-medium text-white hover:bg-yellow-600 hover:text-white transition duration-300">Sign Up</a>
-				</div>
-			</div>
+ <!-- navbar goes here -->
+  <nav class=" bg-gradient-to-r from-blue-800 via-blue-500 to-blue-800 shadow-xl h-30 fixed top-0 inset-x-0 w-full">
+    <div class="max-w-full mx-40 px-4">
+      <div class="flex justify-between">
+        <div class="flex">
+			<div>
+			  <!-- logo -->
+			  <x-logo/>
 
-					<!-- Mobile menu button -->
-					<div class="md:hidden flex items-center w-full justify-end">
-						<button class="outline-none mobile-menu-button">
-                            <svg class=" w-6 h-6 text-white"
-                                x-show="!showMenu"
-                                fill="none"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path d="M4 6h16M4 12h16M4 18h16"></path>
-                            </svg>
-					    </button>
-                     </div>
-                    </div>
-                </div>
+          </div>
+          <!-- primary nav -->
+          <div class="hidden md:flex items-center space-x-1">
+				<a href="/" class="my-10 py-2 px-2 font-medium text-white rounded hover:bg-red-600 hover:text-white transition duration-300"">Home</a>
+				<ul class="flex justify-between ">
+					<li class="ml-52 place-self-center"><a href="#Sport" class="ml-3 py-2 px-10 font-medium text-white rounded hover:bg-red-600 hover:text-white transition duration-300">Sport News</a></li>
+					<li class="place-self-center"><a href="#Politic" class="ml-3 py-2 px-10 font-medium text-white rounded hover:bg-red-600 hover:text-white transition duration-300">Politic News</a></li>
+					<li class="place-self-center"><a href="#Tech" class="ml-3 py-2 px-10 font-medium text-white rounded hover:bg-red-600 hover:text-white transition duration-300">Tech News</a></li>
+					<li class="place-self-center"><a href="#Positiv" class="ml-3 py-2 px-10 font-medium text-white rounded hover:bg-red-600 hover:text-white transition duration-300">Positiv News</a></li>
+				</ul>
+          </div>
+        </div>
+        <!-- secondary nav -->
+        <div class="hidden md:flex items-center space-x-1">
+      		<a href="{{ route('login') }}" class="py-2 px-2 font-medium text-white rounded hover:bg-red-600 hover:text-white transition duration-300">Log In</a>
+			<a href="{{ route('register') }}" class="py-2 px-2 font-medium text-white rounded hover:bg-red-600 hover:text-white transition duration-300">Sign Up</a>
+        </div>
 
-			    <!-- mobile menu -->
-			    <div class="hidden mobile-menu">
-                    <ul class="text-center">
-                        <li class="active"><a href="/" class="block text-sm px-2 py-4 text-white hover:bg-red-900 font-semibold">Home</a></li>
-                        <li><a href="/blog" class="block text-sm px-2 py-4 text-white hover:bg-red-900 transition duration-300">Blog</a></li>
-						<li><a href="{{ route('login') }}" class="block text-sm px-2 py-4 text-white hover:bg-red-900 transition duration-300">Log In</a></li>
-						<li><a href="{{ route('register') }}" class="block text-sm px-2 py-4 text-white hover:bg-red-900 transition duration-300">Sign Up</a></li>
-				    </ul>
-			    </div>
+        <!-- mobile button goes here -->
+        <div class="md:hidden flex items-center">
+          <button class="mobile-menu-button">
+            <svg class="w-40 h-6 text-red-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- mobile menu -->
+    	<div class="mobile-menu hidden md:hidden">
+            <ul class="text-center">
+			<a href="/" class="block text-sm px-2 py-4 text-white rounded hover:bg-red-600 hover:text-white transition duration-300"">Home</a></li>
+				<li><a href="#Sport" class="block text-sm px-2 py-4 text-white rounded hover:bg-red-600 hover:text-red-600 transition duration-300">Sport News</a></li>
+				<li><a href="#Politic" class="block text-sm px-2 py-4 text-white rounded hover:bg-red-600 hover:text-red-600 transition duration-300">Politic News</a></li>
+				<li><a href="#Tech" class="block text-sm px-2 py-4 text-white rounded hover:bg-red-600 hover:text-red-600 transition duration-300">Tech News</a></li>
+				<li><a href="#Positiv" class="block text-sm px-2 py-4 text-white rounded hover:bg-red-600 hover:text-red-600 transition duration-300">Positiv News</a></li>
+				<!-- <li><a href="{{ route('login') }}" class="block text-sm px-2 py-4 text-white hover:bg-red-900 transition duration-300">Log In</a></li>
+				<li><a href="{{ route('register') }}" class="block text-sm px-2 py-4 text-white hover:bg-red-900 transition duration-300">Sign Up</a></li> -->
+			</ul>
+		</div>
+	</nav>
       
       
       
 			<script>
-                const btn = document.querySelector("button.mobile-menu-button");
-				const menu = document.querySelector(".mobile-menu");
-        
-				btn.addEventListener("click", () => {
-                menu.classList.toggle("hidden");
+				let btn = document.querySelector("button.mobile-menu-button");
+				let menu = document.querySelector("div.mobile-menu");
+
+				btn = addEventListener("click", () => {
+				menu.classList.toggle("hidden");
 				});
 		    </script>
 
-		</nav>
+	
 
 
 
