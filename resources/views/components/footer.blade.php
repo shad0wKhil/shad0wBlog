@@ -1,4 +1,4 @@
-<footer class="py-3 bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800 shadow-xl">
+<footer class="py-3 bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 shadow-xl">
     <p class="flex items-center justify-center gap-1 text-sm text-black dark:text-black">
         <span>Made with</span>
         <span>

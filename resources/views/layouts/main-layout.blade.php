@@ -13,7 +13,7 @@
 	<body class="flex flex-col min-h-screen">
    
  <!-- navbar goes here -->
-  <nav class=" bg-gradient-to-r from-blue-800 via-blue-500 to-blue-800 shadow-xl h-30 fixed top-0 inset-x-0 w-full">
+  <nav class="bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 shadow-xl h-30 fixed top-0 inset-x-0 w-full">
     <div class="max-w-full mx-40 px-4">
       <div class="flex justify-between">
         <div class="flex">
@@ -88,6 +88,7 @@
 			
             
             </div>
+			
             <x-blog/>
         </main>
 

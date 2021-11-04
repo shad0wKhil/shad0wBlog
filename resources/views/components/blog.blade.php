@@ -1,5 +1,5 @@
 
-<div id="Sport" class="min-h-screen bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800 shadow-xl flex justify-center items-center -mt-10 py-20">
+<div id="Sport" class="min-h-screen bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 shadow-xl flex justify-center items-center -mt-10 py-20">
   <div class="container mx-auto p-12 bg-white shadow-xl rounded-xl" style="box-shadow: 0px 0px 45px white;">
     <h1 class="text-4xl uppercase font-bold from-current mb-8">Sports News this Week</h1>
     <!-- Box-1 -->
@@ -89,7 +89,7 @@
 
 
 
-<div id="Politic" class="min-h-screen bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800 shadow-xl flex justify-center items-center -mt-10 py-20">
+<div id="Politic" class="min-h-screen bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 shadow-xl flex justify-center items-center -mt-10 py-20">
   <div class="container mx-auto p-12 bg-white shadow-xl rounded-xl" style="box-shadow: 0px 0px 45px white;">
     <h1 class="text-4xl uppercase font-bold from-current mb-8">Political News this Week</h1>
     <!-- Box-1 -->
@@ -179,7 +179,7 @@
 </div>
 
 
-<div id="Tech" class="min-h-screen bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800 shadow-xl flex justify-center items-center -mt-10 py-20">
+<div id="Tech" class="min-h-screen bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 shadow-xl flex justify-center items-center -mt-10 py-20">
   <div class="container mx-auto p-12 bg-white shadow-xl rounded-xl" style="box-shadow: 0px 0px 45px white;">
     <h1 class="text-4xl uppercase font-bold from-current mb-8">Tech News this Week</h1>
     <!-- Box-1 -->
@@ -268,7 +268,7 @@
 </div>
 
 
-<div id="Positiv" class="min-h-screen bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800 shadow-xl flex justify-center items-center -mt-10 py-20">
+<div id="Positiv" class="min-h-screen bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 shadow-xl flex justify-center items-center -mt-10 py-20">
   <div class="container mx-auto p-12 bg-white shadow-xl rounded-xl" style="box-shadow: 0px 0px 45px white;">
     <h1 class="text-4xl uppercase font-bold from-current mb-8">Positiv News this Week</h1>
     <!-- Box-1 -->
