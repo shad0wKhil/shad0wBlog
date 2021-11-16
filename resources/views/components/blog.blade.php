@@ -10,7 +10,7 @@
             <div>
               <img class="w-full" src="{{ asset('images/f1.jpg') }}" />
               <div class="px-4 py-2">
-                <h1 class="text-xl font-gray-700 font-bold">Formula 1 US Grand Prix Highlights</h1>
+                <h1 class="text-xl font-gray-700 font-bold">Formula 1 US Grand Prix Highlight</h1>
                 <div class="flex space-x-2 mt-2">
                   <span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
